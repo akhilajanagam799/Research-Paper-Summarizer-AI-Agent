@@ -121,6 +121,12 @@ See `demo_instructions.md` for detailed instructions on creating demo videos and
 
 ## 🎥 Demo Video
 
+### 🔹 Quick Preview
+![Demo Video 1](docs/screenshots/Demo%20Video%201.gif)
+
+
+
+
 [![Watch the demo](https://img.youtube.com/vi/7y9TK4uXOMU/0.jpg)](https://youtu.be/7y9TK4uXOMU)
 
 
