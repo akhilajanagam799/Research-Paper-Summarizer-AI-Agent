@@ -106,18 +106,7 @@ python src/evaluate/evaluate.py --model_path models/lora-adapter --test_data dat
 ## 📈 Demo and Screenshots
 
 See `demo_instructions.md` for detailed instructions on creating demo videos and screenshots.
-# 📷 Screenshots
 
-## 📈 Demo and Screenshots
-
-### CLI Output
-![CLI Output](docs/screenshots/cli_output.png)
-
-### Streamlit Interface
-![Streamlit UI](docs/screenshots/streamlit_ui.png)
-
-### Evaluation Metrics
-![Evaluation](docs/screenshots/evaluation.png)
 
 ## 🎥 Demo Video
 
@@ -130,6 +119,20 @@ See `demo_instructions.md` for detailed instructions on creating demo videos and
 
 
 [![Watch the demo](https://img.youtube.com/vi/7y9TK4uXOMU/0.jpg)](https://youtu.be/7y9TK4uXOMU)
+
+## 🖼️ Screenshots
+
+### Analysis Completed
+![Analysis Completed](docs/screenshots/Analysis%20completed.png)
+
+### CLI Output
+![CLI Output](docs/screenshots/cli_output.png)
+
+### Configuration
+![Configuration](docs/screenshots/configuration.png)
+
+### Task Performance
+![Task Performance](docs/screenshots/task%20performance.png)
 
 
 
