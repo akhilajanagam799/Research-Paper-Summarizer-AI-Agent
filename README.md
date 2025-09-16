@@ -27,7 +27,7 @@ This project implements an intelligent research paper analysis system that:
 
 ```bash
 # Clone the repository
-git clone <your-repo-url>
+git clone https://github.com/akhilajanagam799/Research-Paper-Summarizer-AI-Agent.git
 cd research-paper-summarizer
 
 # Create virtual environment
