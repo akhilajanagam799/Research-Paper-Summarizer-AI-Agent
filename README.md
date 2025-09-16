@@ -105,7 +105,7 @@ python src/evaluate/evaluate.py --model_path models/lora-adapter --test_data dat
 
 ## 📈 Demo and Screenshots
 
-See `demo_instructions.md` for detailed instructions on creating demo videos and screenshots.
+
 
 
 ## 🎥 Demo Video
