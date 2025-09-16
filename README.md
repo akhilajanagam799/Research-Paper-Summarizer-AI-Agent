@@ -28,11 +28,11 @@ This project implements an intelligent research paper analysis system that:
 ```bash
 # Clone the repository
 git clone https://github.com/akhilajanagam799/Research-Paper-Summarizer-AI-Agent.git
-cd research-paper-summarizer
+cd Research Paper Summarizer AI-Agent
 
 # Create virtual environment
 python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
+ venv\Scripts\activate # On windows 
 
 # Install dependencies
 pip install -r requirements.txt
