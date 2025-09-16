@@ -16,10 +16,10 @@ This project implements an intelligent research paper analysis system that:
 
 ## 👤 Author Information
 
-- **Author**: `<Janagam Akhila>`
-- **Institution**: `<Indian Institute of Technology ,Indore>`
-- **Department**: `<Mathematics and Computing >`
-- **Roll no**: `<230041012>`
+- **Author**: Janagam Akhila
+- **Institution**: Indian Institute of Technology ,Indore
+- **Department**: Mathematics and Computing 
+- **Roll no**: 230041012
 
 ## 🚀 Quick Start
 
@@ -27,12 +27,12 @@ This project implements an intelligent research paper analysis system that:
 
 ```bash
 # Clone the repository
-git clone <your-repo-url>
-cd research-paper-summarizer
+git clone https://github.com/akhilajanagam799/Research-Paper-Summarizer-AI-Agent.git
+cd Research Paper Summarizer AI-Agent
 
 # Create virtual environment
 python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
+ venv\Scripts\activate # On windows 
 
 # Install dependencies
 pip install -r requirements.txt
@@ -107,6 +107,35 @@ python src/evaluate/evaluate.py --model_path models/lora-adapter --test_data dat
 
 See `demo_instructions.md` for detailed instructions on creating demo videos and screenshots.
 
+
+## 🎥 Demo Video
+
+### 🔹 Quick Preview
+
+
+![Demo Video 1](docs/screenshots/Demo%20Video%201.gif)
+
+
+
+
+[![Watch the demo](https://img.youtube.com/vi/7y9TK4uXOMU/0.jpg)](https://youtu.be/7y9TK4uXOMU)
+
+## 🖼️ Screenshots
+
+### Analysis Completed
+![Analysis Completed](docs/screenshots/Analysis%20completed.png)
+
+### CLI Output
+![CLI Output](docs/screenshots/cli_output.png)
+
+### Configuration
+![Configuration](docs/screenshots/configuration.png)
+
+### Task Performance
+![Task Performance](docs/screenshots/task%20performance.png)
+
+
+
 ### Key Screenshots to Capture:
 1. Streamlit interface with uploaded PDF
 2. Generated summary output
@@ -124,32 +153,30 @@ See `demo_instructions.md` for detailed instructions on creating demo videos and
 - **Use RAG (Retrieval-Augmented Generation)** for improved accuracy
 - **Respect model licenses** especially for LLaMA-based models
 
-## 📋 Submission Instructions
-
-### GitHub Repository
-1. Create private GitHub repository
-2. Push all code: `git push origin main`
-3. Add collaborators: `[instructor-github-usernames]`
 
 
-
-**Include**:
-- GitHub repository link
-- Demo video (1-2 minutes)
-- Screenshot compilation
-- Brief results summary
 
 ## 📁 Project Structure
 
 ```
-src/agent/          # Core AI agent components
-src/finetune/       # LoRA training pipeline  
-src/evaluate/       # Evaluation metrics
-src/ui/            # Streamlit interface
-docs/              # Technical documentation
-data/              # Training and test data
-logs/              # Interaction logs
-models/            # Saved model adapters
+research-paper-summarizer/
+├── README.md                # Project overview and instructions
+├── requirements.txt         # Dependencies
+├── data/                    # Raw and processed data
+│   ├── raw/                 # Sample PDFs
+│   └── processed/           # Training/eval datasets
+├── src/                     # Source code
+│   ├── agent/               # PDF processing, planning, execution
+│   ├── finetune/            # LoRA training pipeline
+│   ├── evaluate/            # Evaluation scripts
+│   └── ui/                  # Streamlit interface
+├── docs/                    # Documentation
+│   ├── architecture.md
+│   ├── data_report.md
+│   └── screenshots/         # Place your screenshots here
+├── logs/                    # Interaction logs
+├── models/                  # Saved model adapters
+└── scripts/                 # Helper scripts
 ```
 
 ## 🤝 Contributing
