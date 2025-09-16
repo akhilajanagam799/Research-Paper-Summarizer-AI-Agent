@@ -106,6 +106,18 @@ python src/evaluate/evaluate.py --model_path models/lora-adapter --test_data dat
 ## 📈 Demo and Screenshots
 
 See `demo_instructions.md` for detailed instructions on creating demo videos and screenshots.
+# 📷 Screenshots
+
+CLI Output
+
+
+Streamlit UI with PDF + Results
+
+
+Evaluation Metrics
+ # 🎥 Demo Video
+
+👉 [Insert your demo video link here]
 
 ### Key Screenshots to Capture:
 1. Streamlit interface with uploaded PDF
@@ -124,32 +136,30 @@ See `demo_instructions.md` for detailed instructions on creating demo videos and
 - **Use RAG (Retrieval-Augmented Generation)** for improved accuracy
 - **Respect model licenses** especially for LLaMA-based models
 
-## 📋 Submission Instructions
-
-### GitHub Repository
-1. Create private GitHub repository
-2. Push all code: `git push origin main`
-3. Add collaborators: `[instructor-github-usernames]`
 
 
-
-**Include**:
-- GitHub repository link
-- Demo video (1-2 minutes)
-- Screenshot compilation
-- Brief results summary
 
 ## 📁 Project Structure
 
 ```
-src/agent/          # Core AI agent components
-src/finetune/       # LoRA training pipeline  
-src/evaluate/       # Evaluation metrics
-src/ui/            # Streamlit interface
-docs/              # Technical documentation
-data/              # Training and test data
-logs/              # Interaction logs
-models/            # Saved model adapters
+research-paper-summarizer/
+├── README.md                # Project overview and instructions
+├── requirements.txt         # Dependencies
+├── data/                    # Raw and processed data
+│   ├── raw/                 # Sample PDFs
+│   └── processed/           # Training/eval datasets
+├── src/                     # Source code
+│   ├── agent/               # PDF processing, planning, execution
+│   ├── finetune/            # LoRA training pipeline
+│   ├── evaluate/            # Evaluation scripts
+│   └── ui/                  # Streamlit interface
+├── docs/                    # Documentation
+│   ├── architecture.md
+│   ├── data_report.md
+│   └── screenshots/         # Place your screenshots here
+├── logs/                    # Interaction logs
+├── models/                  # Saved model adapters
+└── scripts/                 # Helper scripts
 ```
 
 ## 🤝 Contributing
