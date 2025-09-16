@@ -16,7 +16,7 @@ This project implements an intelligent research paper analysis system that:
 
 ## 👤 Author Information
 
-- **Author**: `<Janagam Akhila>`
+- **Author**: Janagam Akhila
 - **Institution**: `<Indian Institute of Technology ,Indore>`
 - **Department**: `<Mathematics and Computing >`
 - **Roll no**: `<230041012>`
