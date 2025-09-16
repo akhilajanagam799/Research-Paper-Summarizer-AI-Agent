@@ -119,9 +119,11 @@ See `demo_instructions.md` for detailed instructions on creating demo videos and
 ### Evaluation Metrics
 ![Evaluation](docs/screenshots/evaluation.png)
 
- # 🎥 Demo Video
+## 🎥 Demo Video
 
-👉 [Insert your demo video link here]
+[![Watch the demo](https://img.youtube.com/vi/7y9TK4uXOMU/0.jpg)](https://youtu.be/7y9TK4uXOMU)
+
+
 
 ### Key Screenshots to Capture:
 1. Streamlit interface with uploaded PDF
