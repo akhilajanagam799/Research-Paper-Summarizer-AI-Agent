@@ -135,13 +135,17 @@ python src/evaluate/evaluate.py --model_path models/lora-adapter --test_data dat
 ![Task Performance](docs/screenshots/task%20performance.png)
 
 
+ # Evalution results 
+ 
+ | Metric       | Score |
+| ------------  | ----- |
+| ROUGE-1       | 0.55  |
+| ROUGE-L       | 0.52  |
+| BERTScore F1  | 0.88  |
 
-### Key Screenshots to Capture:
-1. Streamlit interface with uploaded PDF
-2. Generated summary output
-3. Glossary of terms
-4. Example exam questions
-5. Evaluation metrics dashboard
+
+
+
 
 ## 🔒 Security and Ethics
 
